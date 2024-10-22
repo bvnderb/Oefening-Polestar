@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    background: rgb(38,38,181);
+    background: linear-gradient(90deg, rgba(38,38,181,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.branding {
+    width: 100px; 
+    height: auto;
+    float: left;
+ }
+
+.navbar {
+    color: white;
+    text-align: right;
+    float: right;
+    width: auto;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.time {
+    clear: both;
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+.preorder {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.polestar {
+    color: white;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
+.num6 { 
+    color: lightblue;
+    font-style: bold;
+    font-size: 2rem;
+}
+
+.firstbox {
+    clear: both;
+    color: white;
+    background-image: url('Images/plasma.png');
+    background-repeat: no-repeat;
+    float: left;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;  
+}
+
+.firstbox img {
+    text-align: center;
+}
+
+.formbox {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.inform {
+    color: white;
+}
+
+.smalltext {
+    color: white;
+    outline-style: inherit;
+}
